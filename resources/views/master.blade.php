@@ -10,11 +10,13 @@
 </head>
 
 <body>
-    <nav class="bg-blue-600 text-white p-6 text-right px-24">
-        <a href="/" class="font-bold text-lg px-4">Home</a>
-        <a href="/about" class="font-bold text-lg px-4">About</a>
-        <a href="/contact" class="font-bold text-lg px-4">Contact</a>
-        <a href="/login" class="font-bold text-lg px-4">Login</a>
+    <nav class=" text-white bg-black p-4 text-left px-20">
+        <a href="/index" class="font-bold text-lg px-3">DashBoard</a>
+        <a href="/admin" class="font-bold text-lg px-3">Admin</a>
+        <a href="/about" class="font-bold text-lg px-3">About us</a>
+        <a href="/services" class="font-bold text-lg px-3">Services</a>
+        <a href="/booking" class="font-bold text-lg px-3">Booking</a>
+        <a href="/report" class="font-bold text-lg px-3">Report</a>
     </nav>
     @yield('content')
 </body>

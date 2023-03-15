@@ -6,12 +6,17 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+
     public function index()
     {
-        return view('welcome');
+        return view('index');
     }
-    public function about()
+    public function login()
     {
-        return view('about');
+        return view('login');
+    }
+    public function registration()
+    {
+        return view('registration');
     }
 }

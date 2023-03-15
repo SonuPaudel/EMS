@@ -14,11 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PagesController::class, 'index']);
-Route::get('/about', [PagesController::class, 'about']);
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/index', [PagesController::class, 'index']);
+Route::get('/', [PagesController::class, 'login']);
+Route::get('/registration', [PagesController::class, 'registration']);
